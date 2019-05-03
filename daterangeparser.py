@@ -29,6 +29,10 @@ list_of_natural_date_ranges = [
 
 DATE_FORMAT = '%H:%M:%S on %d-%m-%y'
 
+# TODO:
+# - support single day ranges
+# - add support for from x to y
+# - enforce wrapping of days from midnight to midnight, unless today
 
 @dataclass
 class DateParser:

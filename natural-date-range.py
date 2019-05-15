@@ -8,7 +8,7 @@ from text2digits import text2digits
 
 list_of_natural_date_ranges = [
     'yesterday',
-    'last week',
+    'how many bla bla bla Dhruv last week',
     'last month',
     'last year',
     '1 week ago',
@@ -25,6 +25,12 @@ list_of_natural_date_ranges = [
     'pineapple',
     '6th feb 2018',
     '02-04-1995 to 01-05-1995'
+]
+
+past_date_keys = [
+    'last',
+    'ago',
+    'before'
 ]
 
 DATE_FORMAT = '%H:%M:%S on %d-%m-%y'
